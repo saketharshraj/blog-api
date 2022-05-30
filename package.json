@@ -1,6 +1,6 @@
 {
-    "name": "tralio-api-nodejs",
-    "description": "Automated portfolio generator",
+    "name": "blog-api-nodejs",
+    "description": "Blog API",
     "version": "0.0.0",
     "homepage": "",
     "private": true,

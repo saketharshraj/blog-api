@@ -1,4 +1,4 @@
-# tralio-api-nodejs
+# blog-api-nodejs
 
 > Portfolio generator Application
 
@@ -14,14 +14,14 @@ Getting up and running is as easy as 1, 2, 3.
 2. Install your dependencies
 
     ```
-    cd path/to/tralio-api-nodejs
-    npm install
+    cd path/to/blog-api-nodejs
+    yarn
     ```
 
 3. Start your app
 
     ```
-    npm start
+    yarn local
     ```
 
 ## Testing
