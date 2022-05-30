@@ -1,0 +1,9 @@
+{
+    "host": "blog-api-nodejs-app.feathersjs.com",
+    "port": "8000",
+    "otp": {
+        "length": 6,
+        "expireOn": 10,
+        "viewLog": false
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "host": "localhost",
+    "port": 8100,
+    "public": "../public/",
+    "paginate": {
+        "default": 30,
+        "max": 200
+    },
+    "authentication": {
+        "entity": "user",
+        "service": "v1/user",
+        "secret": "s4jZS15EbjW4KIgdaXJLOZTh/5w=",
+        "authStrategies": ["jwt", "local"],
+        "jwtOptions": {
+            "header": {
+                "typ": "access"
+            },
+            "audience": "https://yourdomain.com",
+            "issuer": "feathers",
+            "algorithm": "HS256",
+            "expiresIn": "30d"
+        },
+        "local": {
+            "usernameField": "email",
+            "passwordField": "password"
+        }
+    },
+    "otp": {
+        "length": 4,
+        "expireOn": 60,
+        "viewLog": true
+    },
+    "mongodb": "mongodb+srv://iotlab-tralio:Iotisbest123@cluster0.zdmkv.mongodb.net/blog-devlopment?retryWrites=true&w=majority"
+}
